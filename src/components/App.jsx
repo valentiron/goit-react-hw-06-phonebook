@@ -7,7 +7,6 @@ import ContactForm from './ContactForm/ContactForm';
 export default function App() {
   const contacts = useSelector(state => state.contacts);
 
-  const isShow = contacts.length > 0;
 
   return (
     <div
