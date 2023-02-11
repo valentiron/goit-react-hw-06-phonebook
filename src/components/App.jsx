@@ -1,5 +1,3 @@
-import { useSelector } from 'react-redux';
-
 import Filter from './Filter/Filter';
 import ContactList from './ContactsList/ContactsList';
 import ContactForm from './ContactForm/ContactForm';
