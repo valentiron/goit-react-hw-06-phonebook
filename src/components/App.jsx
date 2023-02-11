@@ -5,8 +5,6 @@ import ContactList from './ContactsList/ContactsList';
 import ContactForm from './ContactForm/ContactForm';
 
 export default function App() {
-  const contacts = useSelector(state => state.contacts);
-
 
   return (
     <div
